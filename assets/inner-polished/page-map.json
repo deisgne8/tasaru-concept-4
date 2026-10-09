@@ -1,0 +1,144 @@
+[
+  {
+    "page": "about.html",
+    "images": [
+      "about-hero",
+      "about-land",
+      "about-real-estate",
+      "about-equipment",
+      "about-expertise",
+      "about-capability",
+      "about-production",
+      "about-impact",
+      "about-context",
+      "about-integration"
+    ]
+  },
+  {
+    "page": "contact.html",
+    "images": [
+      "contact-hero"
+    ]
+  },
+  {
+    "page": "location.html",
+    "images": [
+      "location-hero",
+      "location-hub-preview",
+      "kaec-preview",
+      "cluster-preview",
+      "park-preview",
+      "location-body",
+      "location-detail"
+    ]
+  },
+  {
+    "page": "media.html",
+    "images": [
+      "media-hero",
+      "platform-preview",
+      "network-preview",
+      "capability-preview"
+    ]
+  },
+  {
+    "page": "lear.html",
+    "images": [
+      "lear-hero",
+      "lear-body"
+    ]
+  },
+  {
+    "page": "shin-young.html",
+    "images": [
+      "shin-young-hero",
+      "shin-young-body"
+    ]
+  },
+  {
+    "page": "benteler.html",
+    "images": [
+      "benteler-hero",
+      "benteler-body"
+    ]
+  },
+  {
+    "page": "fangxin.html",
+    "images": [
+      "fangxin-hero",
+      "fangxin-body"
+    ]
+  },
+  {
+    "page": "jvis.html",
+    "images": [
+      "jvis-hero",
+      "jvis-body"
+    ]
+  },
+  {
+    "page": "kaec.html",
+    "images": [
+      "kaec-hero",
+      "kaec-body"
+    ]
+  },
+  {
+    "page": "king-salman-automotive-cluster.html",
+    "images": [
+      "king-salman-automotive-cluster-hero",
+      "king-salman-automotive-cluster-body"
+    ]
+  },
+  {
+    "page": "masarat-mobility-park.html",
+    "images": [
+      "masarat-mobility-park-hero",
+      "masarat-mobility-park-body"
+    ]
+  },
+  {
+    "page": "tasaru-supplier-hub.html",
+    "images": [
+      "tasaru-supplier-hub-hero",
+      "tasaru-supplier-hub-body"
+    ]
+  },
+  {
+    "page": "a-platform-for-local-manufacturing.html",
+    "images": [
+      "a-platform-for-local-manufacturing-hero",
+      "a-platform-for-local-manufacturing-body"
+    ]
+  },
+  {
+    "page": "five-global-suppliers.html",
+    "images": [
+      "five-global-suppliers-hero",
+      "five-global-suppliers-body"
+    ]
+  },
+  {
+    "page": "from-expertise-to-capability.html",
+    "images": [
+      "from-expertise-to-capability-hero",
+      "from-expertise-to-capability-body"
+    ]
+  },
+  {
+    "page": "suppliers.html",
+    "images": [
+      "suppliers-hero",
+      "seating-card",
+      "bodywork-card",
+      "chassis-card",
+      "interior-card",
+      "exterior-card",
+      "seating-scope",
+      "bodywork-scope",
+      "chassis-scope",
+      "interior-scope",
+      "exterior-scope"
+    ]
+  }
+]

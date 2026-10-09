@@ -1,0 +1,572 @@
+[
+  {
+    "name": "about-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-c6611f62-f030-4b84-afcd-50d10a0f9659.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "0c64c56adc6f355c0372500c4c431aafd632e86cd9c6a6d147c9520ffbe9bbd2",
+    "prompt": "Use case: photorealistic-natural. Asset type: high-resolution 2x internal website hero, landscape 2880x1600. Create a polished editorial automotive manufacturing photograph inspired by TASARU Supplier Hub brand photography: an immaculate modern automotive assembly hall, silver vehicle body on precise automated production fixtures, realistic industrial robots, elegant architecture, clean uncluttered composition, restrained navy-blue shadows and neutral white daylight with small teal accents. Wide architectural perspective, generous visually quiet left third for overlay heading, main production subject right of center. Natural realistic materials, crisp premium professional photography. No text, logos, watermark, glowing effects, collage or exaggerated futuristic elements. This is an illustrative manufacturing scene, not a representation of an actual named facility."
+  },
+  {
+    "name": "suppliers-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-3e07abd7-93c4-4a6c-8ac1-264c0f002fbc.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "676b88b88b4068df81f81deb9b0539015b0c5937cf3b7be1d95dbe8847acd947",
+    "prompt": "Use case: photorealistic-natural. Asset: suppliers-hero, website internal hero, native high-resolution 2x landscape 2880x1600. Scene: A pristine electric vehicle battery and chassis assembly line, low sweeping diagonal perspective, silver platforms and precise blue-grey tooling. Premium clean automotive editorial photography inspired by TASARU brand guide page 40, authentic physical machinery and immaculate realistic materials. Restrained navy shadow tonality, neutral white illumination, slight teal details. Wide landscape, subject right, uncluttered left for page heading. No text, logos, collage, watermark, glow or fictional branded facility. Distinct composition."
+  },
+  {
+    "name": "lear-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-f5865b2f-00f1-4162-8366-47b55b75feff.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "d0dc125a71968eedc96f4e4fce987ef07ca5f6c7fc511b10a021622a216cd674",
+    "prompt": "Use case: photorealistic-natural. Asset: lear-hero, website internal hero, native high-resolution 2x landscape 2880x1600. Scene: Extreme refined close-up of charcoal automotive seat stitching and precision leather upholstery in a premium cabin, tactile material detail, seat dominates right side. Premium clean automotive editorial photography inspired by TASARU brand guide page 40, authentic physical machinery and immaculate realistic materials. Restrained navy shadow tonality, neutral white illumination, slight teal details. Wide landscape, subject right, uncluttered left for page heading. No text, logos, collage, watermark, glow or fictional branded facility. Distinct composition."
+  },
+  {
+    "name": "shin-young-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-803419b2-d04e-4054-a697-f6bf2dd35a83.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "a5acd3822e97b20149e20269cab4f417497abc84ce44878b5902195e1d9f7bb5",
+    "prompt": "Use case: photorealistic-natural. Asset: shin-young-hero, website internal hero, native high-resolution 2x landscape 2880x1600. Scene: Large automotive stamping press with a single flawless pressed silver door panel, crisp clean industrial production, strong geometric press structure. Premium clean automotive editorial photography inspired by TASARU brand guide page 40, authentic physical machinery and immaculate realistic materials. Restrained navy shadow tonality, neutral white illumination, slight teal details. Wide landscape, subject right, uncluttered left for page heading. No text, logos, collage, watermark, glow or fictional branded facility. Distinct composition."
+  },
+  {
+    "name": "benteler-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-01a53677-eff7-423b-846e-74837527f3a3.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "4aa35d24363f9b7d697b98283bdf1e34b117e988b362dccff25e3e77109058cd",
+    "prompt": "Use case: photorealistic-natural. Asset: benteler-hero, website internal hero, native high-resolution 2x landscape 2880x1600. Scene: Automotive suspension and chassis subassembly on clean precision tooling, brushed steel wishbones and structural rails, three-quarter low view. Premium clean automotive editorial photography inspired by TASARU brand guide page 40, authentic physical machinery and immaculate realistic materials. Restrained navy shadow tonality, neutral white illumination, slight teal details. Wide landscape, subject right, uncluttered left for page heading. No text, logos, collage, watermark, glow or fictional branded facility. Distinct composition."
+  },
+  {
+    "name": "fangxin-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-0e806b6d-7592-4b92-b973-327a52bd6cd5.png",
+    "prompt": "Use case: photorealistic-natural. Asset: fangxin-hero, distinct internal website hero. Native high-resolution 2x landscape 2880x1600. Scene: A clean automotive interior molding studio, a beautifully finished charcoal dashboard and door trim on a precise assembly fixture, sculptural matte polymers. Premium immaculate editorial photography inspired by TASARU brand guide, natural realistic textures, subtle navy tonality and neutral white light. Main subject right of center, quiet left third for heading. No text, logos, watermark, collage, exaggerated futuristic details or glowing effects. Illustrative scene, do not imply an actual named facility.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "aaa4ab50def0ed9604519e05ff6d04cdfebf9c97c8bd18d849edbce3b6d8ffee"
+  },
+  {
+    "name": "jvis-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-03548f1b-03ac-4847-a1e3-f5229a824e3e.png",
+    "prompt": "Use case: photorealistic-natural. Asset: jvis-hero, distinct internal website hero. Native high-resolution 2x landscape 2880x1600. Scene: Precision exterior automotive fascia manufacture, a silver rear bumper and sculpted body trims on tooling in a bright uncluttered quality inspection bay. Premium immaculate editorial photography inspired by TASARU brand guide, natural realistic textures, subtle navy tonality and neutral white light. Main subject right of center, quiet left third for heading. No text, logos, watermark, collage, exaggerated futuristic details or glowing effects. Illustrative scene, do not imply an actual named facility.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "5e89e0b6d0cf92673d857e9606f4cf81ee708d7f5eec0bfb365195364f761f7c"
+  },
+  {
+    "name": "location-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-ab0e03ca-8490-4688-b283-d28b70ae49f5.png",
+    "prompt": "Use case: photorealistic-natural. Asset: location-hero, distinct internal website hero. Native high-resolution 2x landscape 2880x1600. Scene: Aerial perspective of elegant modern industrial facilities beside a logistics interchange in a Saudi coastal desert, clear organized geometry, natural pale sand and blue sea far beyond. Premium immaculate editorial photography inspired by TASARU brand guide, natural realistic textures, subtle navy tonality and neutral white light. Main subject right of center, quiet left third for heading. No text, logos, watermark, collage, exaggerated futuristic details or glowing effects. Illustrative scene, do not imply an actual named facility.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "dd5588d444995ddba19fb569573179377fbefe0770a0aa068471a4d538924603"
+  },
+  {
+    "name": "kaec-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-7f587900-d66d-4f0d-a177-b1615d561454.png",
+    "prompt": "Use case: photorealistic-natural. Asset: kaec-hero, distinct internal website hero. Native high-resolution 2x landscape 2880x1600. Scene: Modern Saudi Red Sea coastal city with waterfront boulevards, understated contemporary white architecture and turquoise water, aerial oblique coastal perspective, no recognizable landmarks. Premium immaculate editorial photography inspired by TASARU brand guide, natural realistic textures, subtle navy tonality and neutral white light. Main subject right of center, quiet left third for heading. No text, logos, watermark, collage, exaggerated futuristic details or glowing effects. Illustrative scene, do not imply an actual named facility.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "8fe0ca60568d17f0e19169cdedb98cb5ab9aba4fd7c568e7d1da01ccbc50556a"
+  },
+  {
+    "name": "masarat-mobility-park-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-ea58b5f2-063c-4f36-b95f-217715829f58.png",
+    "prompt": "Use case: photorealistic-natural. Asset: masarat-mobility-park-hero, website hero. High-resolution landscape 2880x1600 requested for 2x web use. Scene: Ground-level architectural panorama of a modern mobility industrial park, elegant low-rise manufacturing halls, shaded service boulevard and sparse native landscaping, pale Saudi desert light. Premium clean corporate editorial photography inspired by TASARU automotive photography guide. Subtle navy shadows, neutral natural light, small teal accents, crisp authentic materials. Wide clean composition with quiet space on left and subject mainly on right. No logos, words, collage, watermark, surreal geometry, glow or futuristic effects. Illustrative conceptual scene rather than an actual identified place.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "79129a09aaeed5271e652045acb7e0533bd46df523e778e63a9a5aea0713ea2a"
+  },
+  {
+    "name": "tasaru-supplier-hub-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-33185d1f-c92b-421f-8b3e-d7f938cde00e.png",
+    "prompt": "Use case: photorealistic-natural. Asset: tasaru-supplier-hub-hero, website hero. High-resolution landscape 2880x1600 requested for 2x web use. Scene: Elevated architectural view of five contemporary supplier production buildings connected by internal service roads and carefully organized courtyards, no labels, Saudi setting. Premium clean corporate editorial photography inspired by TASARU automotive photography guide. Subtle navy shadows, neutral natural light, small teal accents, crisp authentic materials. Wide clean composition with quiet space on left and subject mainly on right. No logos, words, collage, watermark, surreal geometry, glow or futuristic effects. Illustrative conceptual scene rather than an actual identified place.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "54cd61cef7501de2740d52798a0df6652c70d7b35d4788dcd11eaa3d8f6b6f84"
+  },
+  {
+    "name": "media-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-9c996cd9-ba77-425a-8ebe-694ef7b5d0d4.png",
+    "prompt": "Use case: photorealistic-natural. Asset: media-hero, website hero. High-resolution landscape 2880x1600 requested for 2x web use. Scene: Close refined photograph of an electric vehicle charging connector attached to a dark navy vehicle, soft abstract workshop reflections, precise realistic cable, no screens or signage. Premium clean corporate editorial photography inspired by TASARU automotive photography guide. Subtle navy shadows, neutral natural light, small teal accents, crisp authentic materials. Wide clean composition with quiet space on left and subject mainly on right. No logos, words, collage, watermark, surreal geometry, glow or futuristic effects. Illustrative conceptual scene rather than an actual identified place.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "bbe8ea109dccfec246dd48d7ed2c8f9b48b1e3a9909f8da2f1920bf86b20571e"
+  },
+  {
+    "name": "king-salman-automotive-cluster-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-d8f6082b-41cc-4515-b5e8-3ba792a849b0.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape image for a premium automotive supplier website, 2880x1600 requested. Scene: Sweeping aerial photograph of an orderly automotive industrial campus in a desert, large white production roofs arranged along a central boulevard, blue dusk shadows, natural realistic scale, no coastline. Clean restrained corporate editorial photograph. Real materials, immaculate environment, balanced soft daylight, subtle navy-blue shadows and small teal accents. Uncluttered left third for website title, subject mainly on right. No logos, words, watermark, collage, glowing effects or surreal details. Illustrative generic setting.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "4e16e26e044c1c4f415cdf984dd91ee6c6e37d3c6700d811f49fb7686aaa0b06"
+  },
+  {
+    "name": "a-platform-for-local-manufacturing-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-d780b33b-fc3b-463a-96f4-2a6e9461dc38.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape image for a premium automotive supplier website, 2880x1600 requested. Scene: A precise robotic laser inspection station checking a silver vehicle body structure, wide professional automotive factory scene. Clean restrained corporate editorial photograph. Real materials, immaculate environment, balanced soft daylight, subtle navy-blue shadows and small teal accents. Uncluttered left third for website title, subject mainly on right. No logos, words, watermark, collage, glowing effects or surreal details. Illustrative generic setting.",
+    "width": 1682,
+    "height": 934,
+    "base_width": 841,
+    "base_height": 467,
+    "sha256": "1ce19652c9487a26ad3172d80eeac5710bb4d24c76e3e7382887f13dcbbb8b13"
+  },
+  {
+    "name": "five-global-suppliers-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-0ebfa635-7978-4d87-9dc8-9432a3a08d7e.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape image for a premium automotive supplier website, 2880x1600 requested. Scene: Five different finished automotive assemblies arranged neatly on an industrial inspection workbench: seat, pressed metal panel, chassis frame, interior door trim and exterior bumper, premium photographic still life. Clean restrained corporate editorial photograph. Real materials, immaculate environment, balanced soft daylight, subtle navy-blue shadows and small teal accents. Uncluttered left third for website title, subject mainly on right. No logos, words, watermark, collage, glowing effects or surreal details. Illustrative generic setting.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "cd7751085a5f980ec0806feffa738ef78f8d72c699e424129db36603d2e00531"
+  },
+  {
+    "name": "from-expertise-to-capability-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-ae96281c-514d-47c2-bad6-4c41c0025756.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape image for a premium automotive supplier website, 2880x1600 requested. Scene: Two automotive manufacturing engineers wearing navy work clothing and realistic protective glasses examining a metal component in a bright quality laboratory, natural candid professional moment. Clean restrained corporate editorial photograph. Real materials, immaculate environment, balanced soft daylight, subtle navy-blue shadows and small teal accents. Uncluttered left third for website title, subject mainly on right. No logos, words, watermark, collage, glowing effects or surreal details. Illustrative generic setting.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "3ed5e89cd102da710d4dc9882d8c2e23d8cd19861d38e3f2908e1e5b05658f49"
+  },
+  {
+    "name": "contact-hero",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-edccf840-19a4-4b2b-862c-aaea9e3eb927.png",
+    "prompt": "Use case: photorealistic-natural. Premium automotive corporate editorial photograph for an internal website section. Landscape 2880x1600 requested for 2x web use. Scene: An elegant contemporary office reception overlooking an industrial campus, clean sculptural desk, soft daylight, no people, quiet professional atmosphere. Immaculate clean composition, highly realistic natural materials, balanced soft lighting, subtle navy color treatment and restrained teal details inspired by the supplied brand guide. Uncluttered professional environment. No words, logos, watermark, collage, fake graphs, exaggerated futuristic details or glowing effects. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "1faa186ffc8da0ba0e3f0227134fba58011653b4b5f7b4488222e310b4a0de6e"
+  },
+  {
+    "name": "about-land",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-fcfb2292-cd08-4383-a704-8a59e2adfd6c.png",
+    "prompt": "Use case: photorealistic-natural. Premium automotive corporate editorial photograph for an internal website section. Landscape 2880x1600 requested for 2x web use. Scene: Drone photograph of a prepared flat industrial development plot with organized access roads in a Saudi desert, geometric boundaries, no buildings or labels. Immaculate clean composition, highly realistic natural materials, balanced soft lighting, subtle navy color treatment and restrained teal details inspired by the supplied brand guide. Uncluttered professional environment. No words, logos, watermark, collage, fake graphs, exaggerated futuristic details or glowing effects. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "125c2e9310087e4528ef0f936c64069a8e3054e829800a47f223908d33d43b99"
+  },
+  {
+    "name": "about-real-estate",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-f5e7d621-548a-493c-944a-b99838dba5c6.png",
+    "prompt": "Use case: photorealistic-natural. Premium automotive corporate editorial photograph for an internal website section. Landscape 2880x1600 requested for 2x web use. Scene: Modern white industrial hall exterior with perfectly aligned loading doors, clean forecourt, architectural ground-level three-quarter view. Immaculate clean composition, highly realistic natural materials, balanced soft lighting, subtle navy color treatment and restrained teal details inspired by the supplied brand guide. Uncluttered professional environment. No words, logos, watermark, collage, fake graphs, exaggerated futuristic details or glowing effects. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "8818b706d68ea7c2878bbc4f698f7d3cfb78b8426208c15b5fdab1d52d390eda"
+  },
+  {
+    "name": "about-equipment",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-53956679-00ae-4062-acec-f0d335f84352.png",
+    "prompt": "Use case: photorealistic-natural. Premium automotive corporate editorial photograph for an internal website section. Landscape 2880x1600 requested for 2x web use. Scene: Precision CNC machining center creating an automotive metal component, impeccable realistic tools and brushed metal, tight industrial detail. Immaculate clean composition, highly realistic natural materials, balanced soft lighting, subtle navy color treatment and restrained teal details inspired by the supplied brand guide. Uncluttered professional environment. No words, logos, watermark, collage, fake graphs, exaggerated futuristic details or glowing effects. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "32488c5507669f362c0dee7e58415c31c10d22c17ab276d19defa88db6f12ea7"
+  },
+  {
+    "name": "about-expertise",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-773a2803-1b3e-4298-a6e8-d33de803ce56.png",
+    "prompt": "Use case: photorealistic-natural. Premium automotive corporate editorial photograph for an internal website section. Landscape 2880x1600 requested for 2x web use. Scene: A professional engineer in navy protective workwear inspecting a metal automotive part with a digital caliper, natural authentic hands and face. Immaculate clean composition, highly realistic natural materials, balanced soft lighting, subtle navy color treatment and restrained teal details inspired by the supplied brand guide. Uncluttered professional environment. No words, logos, watermark, collage, fake graphs, exaggerated futuristic details or glowing effects. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "22d7b2e4dd0773bd189bab53de521474d862952cca6baa945454592f13192950"
+  },
+  {
+    "name": "about-capability",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-f394900f-7078-4bdf-ae29-a7c593983ef5.png",
+    "prompt": "Use case: photorealistic-natural. Premium automotive corporate editorial photograph for an internal website section. Landscape 2880x1600 requested for 2x web use. Scene: A quality laboratory measuring a small automotive component on a coordinate measuring machine, bright white cleanroom, restrained blue-grey tones. Immaculate clean composition, highly realistic natural materials, balanced soft lighting, subtle navy color treatment and restrained teal details inspired by the supplied brand guide. Uncluttered professional environment. No words, logos, watermark, collage, fake graphs, exaggerated futuristic details or glowing effects. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "81da5893c6d65f87aef7f98382e7188724fb1f5d36e7858ad46fe2ab364ae077"
+  },
+  {
+    "name": "about-impact",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-743a8740-2e90-4369-8764-582155afea96.png",
+    "prompt": "Use case: photorealistic-natural. Premium automotive corporate editorial photograph for an internal website section. Landscape 2880x1600 requested for 2x web use. Scene: A modern silver electric vehicle driving along a quiet elegant curving road through arid Saudi landscape, high aerial wide view, natural environment. Immaculate clean composition, highly realistic natural materials, balanced soft lighting, subtle navy color treatment and restrained teal details inspired by the supplied brand guide. Uncluttered professional environment. No words, logos, watermark, collage, fake graphs, exaggerated futuristic details or glowing effects. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "facb9aa6bc4bd346aa9ec9b12ae814fb1f00b9303840af17a81679d4155dd7b4"
+  },
+  {
+    "name": "about-production",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-3f17a462-605e-4dc8-a179-ddfeaf23bd60.png",
+    "prompt": "Use case: photorealistic-natural. Premium automotive corporate editorial photograph for an internal website section. Landscape 2880x1600 requested for 2x web use. Scene: An immaculate line of silver completed vehicle body shells passing through a modern clean assembly hall, side-on perspective. Immaculate clean composition, highly realistic natural materials, balanced soft lighting, subtle navy color treatment and restrained teal details inspired by the supplied brand guide. Uncluttered professional environment. No words, logos, watermark, collage, fake graphs, exaggerated futuristic details or glowing effects. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "ac985a53078a07ef836904887b9ff5b309ab5cd2a123b82f1ad6a923db5104b0"
+  },
+  {
+    "name": "bodywork-card",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-b58d1341-7b0e-4664-974e-fc7bed69ec96.png",
+    "prompt": "Use case: photorealistic-natural. Landscape high-resolution 2880x1600 requested for 2x internal website imagery. Scene: A single pressed silver automotive body-side panel on a clean navy studio floor, beautiful precise sheet metal flanges, three-quarter isolated component photography. Premium pristine photographic clarity, balanced realistic light and natural materials, restrained navy tones with neutrals and subtle teal details. Uncluttered sophisticated composition, mechanically realistic component proportions. No words, logos, watermark, collage, futuristic exaggeration, floating components or glow. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "c91e483c1b34017539e26979d11a0ae27eb2ea96a8b8231daff3f4895fa50479"
+  },
+  {
+    "name": "chassis-card",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-ab11d91a-fd3e-4d6e-8d9b-fed660e26eef.png",
+    "prompt": "Use case: photorealistic-natural. Landscape high-resolution 2880x1600 requested for 2x internal website imagery. Scene: A complete clean automotive chassis platform with precise suspension arms on a neutral navy studio background, overhead three-quarter product photograph. Premium pristine photographic clarity, balanced realistic light and natural materials, restrained navy tones with neutrals and subtle teal details. Uncluttered sophisticated composition, mechanically realistic component proportions. No words, logos, watermark, collage, futuristic exaggeration, floating components or glow. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "dd2ec7a28e908e9a41cac945f3bd703ba5e34d102c647d9f3707afedc4322601"
+  },
+  {
+    "name": "exterior-card",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-93ecc823-3ad3-48e4-be4b-e39a059ebd3d.png",
+    "prompt": "Use case: photorealistic-natural. Landscape high-resolution 2880x1600 requested for 2x internal website imagery. Scene: An elegant silver automotive rear exterior bumper fascia with precise trim and light openings isolated on a navy studio floor, realistic polished product photo. Premium pristine photographic clarity, balanced realistic light and natural materials, restrained navy tones with neutrals and subtle teal details. Uncluttered sophisticated composition, mechanically realistic component proportions. No words, logos, watermark, collage, futuristic exaggeration, floating components or glow. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "6d510e0efbf8f2ac31ab85d45ba43602e145954aac29ad1dfc73fb8dd19001d7"
+  },
+  {
+    "name": "king-salman-automotive-cluster-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-0b490789-8384-42dd-acb1-295ef69ce961.png",
+    "prompt": "Use case: photorealistic-natural. Landscape high-resolution 2880x1600 requested for 2x internal website imagery. Scene: Ground-level view along a spacious boulevard through a contemporary automotive manufacturing district, large clean white halls and carefully arranged logistics access. Premium pristine photographic clarity, balanced realistic light and natural materials, restrained navy tones with neutrals and subtle teal details. Uncluttered sophisticated composition, mechanically realistic component proportions. No words, logos, watermark, collage, futuristic exaggeration, floating components or glow. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "de6a983c74a20dce82687c00ac3d0902a1eb4923392c44fbb5c5906058e437bc"
+  },
+  {
+    "name": "kaec-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-a0296b50-cf99-49c1-9586-655b59c1d265.png",
+    "prompt": "Use case: photorealistic-natural. Landscape high-resolution 2880x1600 requested for 2x internal website imagery. Scene: Low-angle coastal boulevard with modern white contemporary architecture, palm trees and a turquoise Red Sea waterfront, calm professional Saudi urban setting. Premium pristine photographic clarity, balanced realistic light and natural materials, restrained navy tones with neutrals and subtle teal details. Uncluttered sophisticated composition, mechanically realistic component proportions. No words, logos, watermark, collage, futuristic exaggeration, floating components or glow. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "a4549b701781c8c31a14cf15718e7af51cda09089f4a3170459a639a30fcfd58"
+  },
+  {
+    "name": "interior-card",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-98f029de-aab5-4ac0-bb95-591736ed4abb.png",
+    "prompt": "Use case: photorealistic-natural. Landscape high-resolution 2880x1600 requested for 2x internal website imagery. Scene: An immaculate sculptural charcoal automotive dashboard with modern air vents and refined matte textures on a neutral navy studio background, no screens with text. Premium pristine photographic clarity, balanced realistic light and natural materials, restrained navy tones with neutrals and subtle teal details. Uncluttered sophisticated composition, mechanically realistic component proportions. No words, logos, watermark, collage, futuristic exaggeration, floating components or glow. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "d4020cf30d2fabaa2e77060f34e1e033dbcea955e515451f011e0546bb57d066"
+  },
+  {
+    "name": "masarat-mobility-park-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-f48be940-fd81-444d-a01c-ef97a7a38f5c.png",
+    "prompt": "Use case: photorealistic-natural. Landscape high-resolution 2880x1600 requested for 2x internal website imagery. Scene: Aerial top-down geometric view of a clean mobility industrial park with white roofs, orderly courtyards and green native landscape strips in pale desert surroundings. Premium pristine photographic clarity, balanced realistic light and natural materials, restrained navy tones with neutrals and subtle teal details. Uncluttered sophisticated composition, mechanically realistic component proportions. No words, logos, watermark, collage, futuristic exaggeration, floating components or glow. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "b5951ffa4b66127fb3a73d9eb4921cfe88c8a04bad115226a03f1ae6e8645c95"
+  },
+  {
+    "name": "tasaru-supplier-hub-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-bfd95c2d-ab68-48a0-a126-28402d3d5eab.png",
+    "prompt": "Use case: photorealistic-natural. Landscape high-resolution 2880x1600 requested for 2x internal website imagery. Scene: Architectural photograph of a premium contemporary industrial production building and its loading court at blue hour, soft interior light, refined white facade. Premium pristine photographic clarity, balanced realistic light and natural materials, restrained navy tones with neutrals and subtle teal details. Uncluttered sophisticated composition, mechanically realistic component proportions. No words, logos, watermark, collage, futuristic exaggeration, floating components or glow. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "c76ff72068af40c65e5dab02717d859721a88b049166e2eb6496e697e1dbff0e"
+  },
+  {
+    "name": "about-context",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-b4de49ad-773c-44e8-9f88-8d82ab7a4cdf.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x web use. Scene: High aerial of a modern logistics corridor connecting industrial manufacturing buildings with a distant container port on a Saudi coastline, sweeping blue-grey landscape. Premium clean automotive editorial photography consistent with a Saudi supplier hub brand guide. Natural materials, soft balanced professional illumination, subtle navy tonality with neutral white and restrained teal. Clean simple composition. No text, brand names, logos, watermark, collage, glow, excessive clutter or surreal geometry. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "efbfe3041d35abf16b97128ecdee90598c537aff50931b234f06be3fc5fd33c4"
+  },
+  {
+    "name": "about-integration",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-25f8cfd0-c5a8-4426-b46e-20a5d9bcf6a5.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x web use. Scene: Automotive engineering specialists in navy workwear reviewing different physical components on a clean bright collaborative workshop table, natural candid teamwork. Premium clean automotive editorial photography consistent with a Saudi supplier hub brand guide. Natural materials, soft balanced professional illumination, subtle navy tonality with neutral white and restrained teal. Clean simple composition. No text, brand names, logos, watermark, collage, glow, excessive clutter or surreal geometry. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "6d61beef60f3452f944d040fe8a66838af6f566aae298ab112a7982bce52d27a"
+  },
+  {
+    "name": "lear-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-c3df1ba4-2c37-4dbe-871c-9e772ff31aa9.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x web use. Scene: An automotive seating assembly workbench with precisely aligned ergonomic seat frames and upholstery sections, clean premium factory, diagonal eye-level view. Premium clean automotive editorial photography consistent with a Saudi supplier hub brand guide. Natural materials, soft balanced professional illumination, subtle navy tonality with neutral white and restrained teal. Clean simple composition. No text, brand names, logos, watermark, collage, glow, excessive clutter or surreal geometry. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "9d77079709a3cfaa079b856cf5338f89ce3fe4d9731cef20d2c66421ceff26b0"
+  },
+  {
+    "name": "shin-young-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-503b4d93-60ac-4633-8ec4-c70bedb605e9.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x web use. Scene: A flawless unpainted vehicle body shell undergoing robotic optical inspection, crisp metallic ribs and stamped structure in a bright clean production bay. Premium clean automotive editorial photography consistent with a Saudi supplier hub brand guide. Natural materials, soft balanced professional illumination, subtle navy tonality with neutral white and restrained teal. Clean simple composition. No text, brand names, logos, watermark, collage, glow, excessive clutter or surreal geometry. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "c55931942c97451103620f48b40e9a00f770c7f48df6200d53ee2cb70d6d410b"
+  },
+  {
+    "name": "benteler-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-ab2b0ae5-37b0-40f4-a053-eba70a70e8cf.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x web use. Scene: Close editorial detail of a precision automotive structural subframe and suspension joints on a neutral inspection bench, beautiful brushed metal textures. Premium clean automotive editorial photography consistent with a Saudi supplier hub brand guide. Natural materials, soft balanced professional illumination, subtle navy tonality with neutral white and restrained teal. Clean simple composition. No text, brand names, logos, watermark, collage, glow, excessive clutter or surreal geometry. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "edbdba814d9ed62dd962151d7d0ef42c5be1bb6bce31590223e27cf8c91fa427"
+  },
+  {
+    "name": "fangxin-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-c0628203-ec6f-4a52-b31d-adc54196143b.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x web use. Scene: Automotive door interior trim and dashboard parts laid out in an elegant materials quality laboratory, matte charcoal polymers, restrained teal sample accent. Premium clean automotive editorial photography consistent with a Saudi supplier hub brand guide. Natural materials, soft balanced professional illumination, subtle navy tonality with neutral white and restrained teal. Clean simple composition. No text, brand names, logos, watermark, collage, glow, excessive clutter or surreal geometry. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "8ce721b063d3f5c4e71f5af062b3de2874d920edf647c6f45502aa234c8cef0a"
+  },
+  {
+    "name": "jvis-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-46cab7c0-dded-4ab9-9c96-defa535e8cb8.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x web use. Scene: An immaculate automotive exterior bumper molding production fixture, glossy silver fascia, clean industrial precision, side perspective. Premium clean automotive editorial photography consistent with a Saudi supplier hub brand guide. Natural materials, soft balanced professional illumination, subtle navy tonality with neutral white and restrained teal. Clean simple composition. No text, brand names, logos, watermark, collage, glow, excessive clutter or surreal geometry. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "8ed8fc1027c39dc11063163c66ef5f6f2ff3271ada24bf08e81aac2782da6d85"
+  },
+  {
+    "name": "seating-card",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-8b88e5f6-d13d-48d2-a3c8-000189ef1836.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x web use. Scene: A premium completed front automotive seat on a clean neutral navy studio background, three-quarter view, fine black stitching and realistic upholstery. Premium clean automotive editorial photography consistent with a Saudi supplier hub brand guide. Natural materials, soft balanced professional illumination, subtle navy tonality with neutral white and restrained teal. Clean simple composition. No text, brand names, logos, watermark, collage, glow, excessive clutter or surreal geometry. Generic illustrative scene.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "8273838d4a7fd45ed15d96f8facb69796fe5a6dadb63863c66798a7bf7f23c98"
+  },
+  {
+    "name": "location-hub-preview",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-97e84294-3926-4d3c-8d9c-2edf0c7540de.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x editorial web use. Scene: Elevated oblique photograph of a compact modern supplier production campus with five elegant manufacturing halls and a clean central service court, pale desert context. Clean premium automotive manufacturing brand photography, subtle navy tonal treatment, soft balanced natural light, crisp realistic textures, small restrained teal accents. Immaculate uncluttered composition. No logos, text, watermark, collage, surreal equipment or glowing effects. Illustrative generic environment.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "6fe51bc2c3d67bd32c827b81f4c8b8216155d755ea58bc8f56987183267290b5"
+  },
+  {
+    "name": "location-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-6a3d21b2-0013-40d6-b589-78bcc02d4518.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x editorial web use. Scene: A precisely organized modern container terminal with gantry cranes beside turquoise sea, aerial logistics photograph, crisp geometric shipping rows. Clean premium automotive manufacturing brand photography, subtle navy tonal treatment, soft balanced natural light, crisp realistic textures, small restrained teal accents. Immaculate uncluttered composition. No logos, text, watermark, collage, surreal equipment or glowing effects. Illustrative generic environment.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "3dba5a1f65c0c5b3e89de1c57572a249b57d2baf07dc80ed5a937d56e3b23494"
+  },
+  {
+    "name": "location-detail",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-f90a8df7-148d-43f7-90b1-c27138297ffb.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x editorial web use. Scene: Wide architectural photograph of a purpose-built industrial park road leading toward elegant contemporary manufacturing buildings, native desert plants and shaded utility structures. Clean premium automotive manufacturing brand photography, subtle navy tonal treatment, soft balanced natural light, crisp realistic textures, small restrained teal accents. Immaculate uncluttered composition. No logos, text, watermark, collage, surreal equipment or glowing effects. Illustrative generic environment.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "45c492172a3cf64bffc8c52592c148f20afe0a246cf5ce1416e5e7fda6d53b39"
+  },
+  {
+    "name": "a-platform-for-local-manufacturing-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-39d0f2df-5c41-4229-ae6f-64145bcaa7ca.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x editorial web use. Scene: A bright clean automotive factory aisle with robotic tooling and a precise production work cell, centered architectural perspective, flawless uncluttered machinery. Clean premium automotive manufacturing brand photography, subtle navy tonal treatment, soft balanced natural light, crisp realistic textures, small restrained teal accents. Immaculate uncluttered composition. No logos, text, watermark, collage, surreal equipment or glowing effects. Illustrative generic environment.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "858e70ea1ebcf4f5743cb4a53f1d70f119532ab4765b3482ac557da5e5539e35"
+  },
+  {
+    "name": "five-global-suppliers-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-24625494-0fad-4b21-81cb-d28b63aa18ad.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x editorial web use. Scene: A manufacturing quality team inspecting a neat selection of automotive components on a long laboratory workbench, navy work clothing, natural confident collaborative moment. Clean premium automotive manufacturing brand photography, subtle navy tonal treatment, soft balanced natural light, crisp realistic textures, small restrained teal accents. Immaculate uncluttered composition. No logos, text, watermark, collage, surreal equipment or glowing effects. Illustrative generic environment.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "21f2ed40586d33353334c9c290d517ffee957a2477b5eb1fe23136fc229876aa"
+  },
+  {
+    "name": "from-expertise-to-capability-body",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-ea8ff091-fbba-42a3-b98c-cc226ac877e9.png",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape 2880x1600 requested for 2x editorial web use. Scene: Close editorial photograph of realistic gloved engineer hands measuring a machined metal automotive component with precision inspection tooling, shallow background, fine brushed steel detail. Clean premium automotive manufacturing brand photography, subtle navy tonal treatment, soft balanced natural light, crisp realistic textures, small restrained teal accents. Immaculate uncluttered composition. No logos, text, watermark, collage, surreal equipment or glowing effects. Illustrative generic environment.",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "b0cc92677a91b8fbc8f37ad5ef300d0da23bc98e1e1f0130c62e0360b43dbf23"
+  },
+  {
+    "name": "seating-scope",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: A clean automotive seat assembly station with one engineer checking an upholstered seat frame, side view, navy workwear, professional factory precision. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-0982e98a-9566-4a43-9a63-286925de2b86.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "422b3444721a644d0dcb51342fbef291d86cce56d206751d7525e6eb8e21a3e0"
+  },
+  {
+    "name": "bodywork-scope",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: A robotic precision welding cell around a silver automotive body shell, symmetrical industrial architecture, realistic restrained welding point, no dramatic sparks. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-3217d869-d085-45ea-b145-22bea29cbb3f.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "5037abb00a737c0e24a43f7891ba82d448abb647442f92ff18089b7930319b30"
+  },
+  {
+    "name": "chassis-scope",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: Machined steel automotive suspension arms and a structural subframe aligned neatly on a bright quality inspection table, overhead editorial component detail. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-f298debb-460e-4e2f-aba6-0fbffa118914.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "82894948582ad928b31642ab18ef44c22eaa8288f74c9c063ef45def3eba2b21"
+  },
+  {
+    "name": "exterior-scope",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: Clean industrial paint inspection booth with an automotive bumper fascia under precise soft inspection light, immaculate white architecture. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-4323b0b8-2179-40a5-b7e3-05cc3a032c73.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "62f79ef46b94aaedd11d37ce147c24c03b1fea265c0a76da4035af049137bee6"
+  },
+  {
+    "name": "kaec-preview",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: High aerial photograph of a contemporary Saudi coastal waterfront promenade and blue sea, white low-rise city buildings, distinct overhead perspective. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-f7c9aedd-7457-4dd0-960d-83374f63ec09.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "2523dac7f986e1c94362165bc309342574d4dae79f364c57fad229b428e38c19"
+  },
+  {
+    "name": "interior-scope",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: A macro photograph of refined automotive interior polymer finishes and a modern door panel assembly, charcoal matte surfaces and subtle navy reflections. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-e0398cee-2c13-4d02-8dab-e5192e602233.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "44614fb4bed83258228de97e0714e0718f97d38f4b3d9461d389bbf2f274da14"
+  },
+  {
+    "name": "cluster-preview",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: Aerial detail of an automotive industrial campus intersection between white production halls and service courtyards, precise geometric composition. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-328c8a86-d9b8-4ef4-94f6-2201bb79cf8a.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "dadf96d27100d6ccc5267a09666834c4d1e275e61e92fa49427ca6832f9f75ee"
+  },
+  {
+    "name": "park-preview",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: Modern industrial park entrance boulevard with a white contemporary utility building and sparse native desert landscaping, quiet ground-level photograph. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-b72e2148-5870-43f5-abeb-890e9729e16f.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "c50be0645a58480365e22f8ebc55cbc6e886902595f222b1952c95bff480b071"
+  },
+  {
+    "name": "platform-preview",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: Precision industrial robot gripper holding a machined automotive component in a modern clean automated work cell, close view. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-e849310f-e1fe-4c4d-8c64-da1488aeabe7.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "33a26084e791ad636b4b08b9368a18b26a1ae2d49ee5ac82f81f6b17a270f4d5"
+  },
+  {
+    "name": "network-preview",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: Five different automotive components lined up neatly on individual inspection stands in a bright professional studio, seat frame, metal panel, subframe, trim and bumper. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-1d6201d1-59f0-48dc-b0f9-c5519f34695d.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "28f53ba0daf35a35af266e8d605691d2e09f3e64493f8815f80a902221f820fe"
+  },
+  {
+    "name": "capability-preview",
+    "prompt": "Use case: photorealistic-natural. High-resolution landscape photo for premium automotive website imagery, 2880x1600 requested for 2x web use. Scene: Professional quality engineer using a microscope to inspect a small automotive component in a bright modern lab, natural focused candid portrait in navy work clothing. Clean natural photographic realism, crisp authentic materials, soft professional illumination, subtle navy-blue tonal treatment, neutral white and very small teal details. Avoid text, logos, watermark, collage, clutter, surreal machines, futuristic exaggeration or glow. Generic illustrative scene.",
+    "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a119e5-49c3-7793-90d9-eae7ce48e8c8\\exec-7f183669-d4b4-4b8b-8d7c-c17a98c821c3.png",
+    "width": 1680,
+    "height": 936,
+    "base_width": 840,
+    "base_height": 468,
+    "sha256": "531e841d28b6005d33215ebeda6c7d4bde52377b682c765840ee8465968bed00"
+  }
+]

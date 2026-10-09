@@ -1,0 +1,7 @@
+Polished location illustration — illustrative only, not a verified geographic map.
+Generated from the previous KAEC-inspired aerial image. Site outlines are design-only placeholders, not surveyed boundaries. Replace with an approved masterplan before claiming geographic accuracy.
+
+Prompt: Polish this existing KAEC-inspired aerial illustration for a premium architectural website. Preserve image composition, coastline, port, roads, building locations, proportions and top-down viewpoint. Improve natural color grading and surface clarity: light ivory and warm sand terrain, crisp industrial roofs, restrained greenery, rich navy and turquoise sea, balanced daylight and subtle natural shadows. No new buildings, rearranged geography, labels, pins, borders, text, glow, decorative gradients or watermarks.
+
+Master: kaec-polished-master-4x.jpg, four-times generated-source dimensions using Lanczos upscale. Upscaling does not add verified detail. Website: kaec-polished-web.webp, 3840 x 2160 optimized export.
+Names and purple outlines are editable website overlays, not baked into the image. Reduced-motion disables zoom transitions.
