@@ -60,7 +60,7 @@
 #location::after { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(90deg,#ddfcfa 0%,rgba(221,252,250,.98) 19%,rgba(221,252,250,.86) 28%,rgba(221,252,250,.22) 43%,rgba(195,255,239,.20) 76%,rgba(195,255,239,.76) 94%,#c3ffef 100%); }
 #location .location-copy { position: relative; z-index: 1; width: min(100%,700px); min-height: 670px; padding: 70px 32px 70px max(var(--page),6.5vw); justify-content: center; }
 #location .location-copy h2 { max-width: 570px; font-size: clamp(36px,2.8vw,50px); line-height: 1.12; }
-#location .location-copy > p:not(.eyebrow) { max-width: 490px; margin: 20px 0 28px; font-size: 14px; line-height: 1.55; color: #435c68; }
+#location .location-copy > p:not(.eyebrow) { max-width: 490px; margin: 20px 0 28px; font-size: var(--type-paragraph); line-height: 1.55; color: #435c68; }
 #location .location-selectors { max-width: 470px; margin-bottom: 40px; }
 #location .location-selectors button { min-height: 40px; font-size: 13px; padding-block: 10px; background: rgba(230,250,250,.94); }
 #location .location-selectors button[aria-pressed="true"] { background: #001b2d; border-color: #001b2d; }

@@ -22,7 +22,7 @@ body { font-size: var(--type-paragraph); line-height: var(--body-leading); }
 .contact-dialog::backdrop { background: rgba(0,23,48,.65); }
 .contact-form { position: relative; padding: 32px; }
 .contact-form h2 { margin: 0 32px 12px 0; font-size: 28px; }
-.contact-form p { font-size: 14px; color: var(--muted); }
+.contact-form p { font-size: var(--type-paragraph); color: var(--muted); }
 .contact-close { position: absolute; top: 16px; right: 16px; width: 40px; height: 40px; border: 0; border-radius: 50%; background: #f3f5f8; color: var(--navy); font-size: 26px; cursor: pointer; }
 .contact-form label { display: block; margin: 18px 0 7px; font-size: 14px; font-weight: 500; }
 .contact-form input, .contact-form select, .contact-form textarea { width: 100%; min-height: 44px; padding: 10px 12px; border: 1px solid #bdcedc; border-radius: 8px; background: #fff; color: var(--navy); font: inherit; }
@@ -46,6 +46,7 @@ body, .site-footer { background: var(--navy); }
 .capability-tabs::before, .capability-panel::before,
 .ecosystem::before, .contact::before, .site-footer::before { content: none; }
 .platform, .ecosystem, .contact { background: #fff; }
+.platform.section { padding-block: clamp(52px, 5vw, 72px); }
 .platform-core { background: var(--cta-primary); border: 1px solid var(--cta-primary); box-shadow: none; }
 .platform-icon { border: 1px solid rgba(0,23,48,.16); box-shadow: none; }
 .capability-overlay, .location-overlay { background: rgba(0,23,48,.5); }
@@ -225,7 +226,7 @@ body, .site-footer { background: var(--navy); }
 .context-map { display: flex; flex-direction: column; justify-content: center; background: #e9f0f5; }
 .map-caption { bottom: 12px; right: 16px; color: var(--navy); background: #fff; border: 1px solid #bdcedc; }
 @media (min-width: 901px) {
-  .platform-visual { height: 600px; min-height: 600px; }
+  .platform-visual { height: 520px; min-height: 520px; }
   .context-map-art { position: absolute; left: 50%; top: 0; width: auto; min-width: 100%; height: 100%; aspect-ratio: 1672 / 940; transform: translateX(-57%); }
   .context-map-art > img { width: 100%; height: 100%; }
 }
@@ -550,7 +551,7 @@ body, .site-footer { background: var(--navy); }
 #about .platform-visual .item-equipment > div { text-align: right; }
 /* Refined orbit: quieter lines, consistent labels and upright rotating nodes. */
 #about .platform-visual .platform-item h3 { font-size: 24px; line-height: 1.15; margin: 0 0 8px; letter-spacing: -.02em; }
-#about .platform-visual .platform-item p { font-size: 15px; line-height: 1.5; color: #607084; }
+#about .platform-visual .platform-item p { font-size: var(--type-paragraph); line-height: 1.5; color: #607084; }
 #about .platform-visual .platform-item > div { padding: 6px 0; background: rgba(255,255,255,.94); border-radius: 8px; }
 #about .platform-visual .platform-icon { box-shadow: 0 5px 16px rgba(44,1,147,.12); }
 #about .orbit-connections line { stroke: #d2dce9; stroke-width: .8; }
