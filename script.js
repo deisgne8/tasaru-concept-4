@@ -180,6 +180,7 @@ document.querySelector('[data-vast-prev]').addEventListener('click', () => showC
 document.querySelector('[data-vast-next]').addEventListener('click', () => showComponent(componentIndex + 1));
 componentTrack.addEventListener('scroll', updateCarousel, { passive: true });
 componentTrack.addEventListener('keydown', (event) => {
+  componentTrack.classList.remove('pointer-focused');
   if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
   event.preventDefault();
   showComponent(event.key === 'Home' ? 0 : event.key === 'End' ? 4 : componentIndex + (event.key === 'ArrowRight' ? 1 : -1));
@@ -190,6 +191,7 @@ componentTrack.addEventListener('dragstart', event => event.preventDefault());
 componentTrack.addEventListener('pointerdown', event => {
   if (event.pointerType === 'touch' || event.button !== 0 || event.target.closest('a,button')) return;
   event.preventDefault();
+  componentTrack.classList.add('pointer-focused');
   componentTrack.focus({preventScroll:true});
   componentDrag = { id: event.pointerId, x: event.clientX, left: componentTrack.scrollLeft, index: componentIndex, delta: 0, moved: false };
   componentTrack.setPointerCapture(event.pointerId);
@@ -308,7 +310,7 @@ const orbitDesktop = window.matchMedia('(min-width: 1101px)');
 
 const positionOrbit = () => {
 
-  const baseRadius = Math.min((orbit.clientWidth / 2 - 80) / 1.24, 186);
+  const baseRadius = Math.max(70, Math.min((orbit.clientWidth / 2 - 190) / 1.24, 170));
 
   const ringFactors = [.7, 1, 1.24];
 
@@ -328,7 +330,7 @@ const positionOrbit = () => {
 
     item.style.left = `${orbit.clientWidth / 2 + x}px`;
 
-    item.style.top = `${orbit.clientHeight / 2 + y + item.offsetHeight / 2 - 18}px`;
+    item.style.top = `${orbit.clientHeight / 2 + y}px`;
 
     item.classList.toggle('orbit-left', x < -25);
 
@@ -350,7 +352,7 @@ const animateOrbit = (now) => {
 
   if (!orbitVisible || orbitPaused || !orbitDesktop.matches || document.hidden) { orbitFrame = 0; orbitLast = 0; return; }
 
-  if (orbitLast) orbitPhase += Math.min(now - orbitLast, 60) * Math.PI * 2 / 70000;
+  if (orbitLast) orbitPhase += Math.min(now - orbitLast, 60) * Math.PI * 2 / 110000;
 
   orbitLast = now;
 
@@ -396,6 +398,7 @@ if (homepageConnection) {
     const path=document.createElementNS('http://www.w3.org/2000/svg','path');
     path.setAttribute('pathLength','1'); svg.append(path); return path;
   });
+  let connectionsLaidOut = false;
   function layoutConnections() {
     const box=homepageConnection.getBoundingClientRect();
     const vertical=window.matchMedia('(max-width:780px)').matches;
@@ -425,27 +428,40 @@ if (homepageConnection) {
         path.setAttribute('d',`M${x1} ${y1} H${mid-r} Q${mid} ${y1} ${mid} ${y1+dir*r} V${y2-dir*r} Q${mid} ${y2} ${mid+r} ${y2} H${x2}`);
       }
     });
+    connectionsLaidOut = true;
   }
-  new ResizeObserver(layoutConnections).observe(homepageConnection);
-  document.fonts.ready.then(layoutConnections);
-  let started=false;
-  function reveal(index){
-    if(index>=paths.length)return;
-    const path=paths[index];
-    function arrived(){if(index<cards.length)cards[index].classList.add('signal-active');reveal(index+1);}
-    if(motion.matches){path.classList.add('is-connected');arrived();return;}
-    const drawing = path.animate([{strokeDashoffset:1},{strokeDashoffset:0}],{duration:850,easing:'ease-in-out',fill:'forwards'});
-    drawing.finished.then(()=>{
-      path.classList.add('is-connected');
-      drawing.cancel();
-      arrived();
+  const clamp = (value, min = 0, max = 1) => Math.max(min, Math.min(max, value));
+  let connectionFrame = 0;
+  function drawConnectionProgress() {
+    connectionFrame = 0;
+    if (!connectionsLaidOut) layoutConnections();
+    const bounds = homepageConnection.getBoundingClientRect();
+    const start = innerHeight * .82;
+    const end = innerHeight * .28;
+    const progress = motion.matches ? 1 : clamp((start - bounds.top) / (bounds.height + start - end));
+    const scaledProgress = progress * paths.length;
+    paths.forEach((path, index) => {
+      const pathProgress = clamp(scaledProgress - index);
+      path.style.strokeDashoffset = String(1 - pathProgress);
+      path.classList.toggle('is-connected', pathProgress >= .999);
+    });
+    cards.forEach((card, index) => {
+      card.classList.toggle('signal-active', scaledProgress >= index + 1);
     });
   }
-  const observer=new IntersectionObserver(entries=>{
-    if(started||!entries.some(e=>e.isIntersecting))return;
-    started=true;observer.disconnect();layoutConnections();requestAnimationFrame(()=>reveal(0));
-  },{threshold:.1});
-  observer.observe(homepageConnection);
+  function queueConnectionProgress() {
+    if (!connectionFrame) connectionFrame = requestAnimationFrame(drawConnectionProgress);
+  }
+  function queueConnectionLayout() {
+    connectionsLaidOut = false;
+    queueConnectionProgress();
+  }
+  new ResizeObserver(queueConnectionLayout).observe(homepageConnection);
+  document.fonts.ready.then(queueConnectionLayout);
+  window.addEventListener('scroll', queueConnectionProgress, { passive: true });
+  window.addEventListener('resize', queueConnectionLayout);
+  motion.addEventListener('change', queueConnectionProgress);
+  queueConnectionLayout();
 }
 
 const searchDialog = document.querySelector('[data-search-dialog]');
@@ -482,3 +498,15 @@ searchDialog.querySelector('form').addEventListener('submit', (event) => {
     searchStatus.textContent = `No section found for “${searchInput.value.trim()}”.`;
   }
 });
+
+// Equal caption panels using the tallest content at the current viewport.
+const componentCaptions = [...document.querySelectorAll('.vast-progress-caption')];
+const equalizeComponentCaptions = () => {
+  componentCaptions.forEach(caption => caption.style.removeProperty('--component-caption-height'));
+  const height = Math.ceil(Math.max(...componentCaptions.map(caption => caption.getBoundingClientRect().height)));
+  componentCaptions.forEach(caption => caption.style.setProperty('--component-caption-height', `${height}px`));
+};
+window.addEventListener('resize', equalizeComponentCaptions);
+window.addEventListener('load', equalizeComponentCaptions);
+document.fonts.ready.then(equalizeComponentCaptions);
+equalizeComponentCaptions();

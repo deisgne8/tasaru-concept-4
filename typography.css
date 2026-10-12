@@ -4,7 +4,7 @@
   --type-subheadline: clamp(22px, 2.2vw, 28px);
   --type-paragraph: 16px;
   --type-small: 14px;
-  --type-caption: 12px;
+  --type-caption: 15px;
   --body-leading: 1.45;
   --heading-leading: 1.1;
 }
@@ -30,7 +30,10 @@ body { font-size: var(--type-paragraph); line-height: var(--body-leading); }
 .contact-form .button { margin-top: 24px; cursor: pointer; }
 .contact-form :focus-visible { outline: 2px solid var(--cta-primary); outline-offset: 3px; }
 @media(max-width:600px) { .contact-form { padding: 24px 20px; } }
-.site-header .brand img, .site-header.scrolled .brand img, .footer-brand img { filter: url(#supplier-hub-white-logo); mix-blend-mode: normal; }
+.site-header .brand,.site-header .brand img { background: transparent; }
+.site-header .brand img { display: block; filter: none; mix-blend-mode: normal; }
+.site-header.scrolled .brand img { filter: none; }
+.footer-brand img { filter: url(#supplier-hub-white-logo); mix-blend-mode: normal; }
 .site-header, .site-header.scrolled { border: 0; box-shadow: none; }
 .contact-content > img { width: 240px; max-width: 75%; height: auto; filter: none; mix-blend-mode: multiply; }
 /* Client feedback 1: solid brand graphics, no gradient/color interpolation. */
@@ -171,6 +174,13 @@ body, .site-footer { background: var(--navy); }
   line-height: 1.25;
   letter-spacing: 0;
 }
+.site-header .site-nav a { font-size: 15px; }
+@media(max-width:1100px) and (min-width:901px) {
+  .site-header .site-nav a { font-size: 13px; }
+}
+@media(max-width:900px) {
+  .site-header .site-nav a { font-size: 16px; }
+}
 .vast-progress-kicker {
   font-size: var(--type-paragraph);
   font-weight: 500;
@@ -295,7 +305,7 @@ body, .site-footer { background: var(--navy); }
 
 /* Bent supplier connection sits behind the solid cards. */
 .homepage-brand-connections { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: 0; }
-.homepage-brand-connections path { fill: none; stroke: var(--cta-primary); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset .65s ease; }
+.homepage-brand-connections path { fill: none; stroke: var(--cta-primary); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; stroke-dasharray: 1; stroke-dashoffset: 1; transition: none; }
 .homepage-brand-connections path.is-connected { stroke-dashoffset: 0; }
 .ecosystem-flow .card-signal-overlay,.ecosystem-flow .network-sequence { display: none; }
 .ecosystem-flow article { position: relative; z-index: 1; }
@@ -309,7 +319,7 @@ body, .site-footer { background: var(--navy); }
 .platform-visual .platform-icon img { display: block; width: 48px; height: 48px; max-width: none; }
 .platform-item:hover .platform-icon { background: transparent; }
 
-.homepage-brand-connections path { stroke: #00549b; transition-duration: .85s; }
+.homepage-brand-connections path { stroke: #00549b; transition: none; }
 @media(prefers-reduced-motion:reduce) { .homepage-brand-connections path { transition: none; } }
 
 /* Logo separators span the full height of each row. */
@@ -323,7 +333,7 @@ body, .site-footer { background: var(--navy); }
 .location-context .location-design-boundaries,.location-context .map-place-label { display: none; }
 .location-context .map-caption { width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); border: 0; }
 .location-context .location-copy { position: relative; z-index: 1; width: min(100%,680px); max-width: none; min-height: 700px; padding: 80px 28px 80px max(var(--page),6.6vw); justify-content: center; }
-.location-context .location-copy .eyebrow { font-size: 12px; color: #536579; margin-bottom: 16px; }
+.location-context .location-copy .eyebrow { font-size: var(--type-caption); color: #536579; margin-bottom: 16px; }
 .location-context .location-copy h2 { max-width: 560px; font-size: clamp(32px,2.6vw,44px); line-height: 1.06; margin-bottom: 0; }
 .location-context .location-copy h2 span { color: #0088e8; }
 .location-context .location-copy > p:not(.eyebrow) { max-width: 490px; font-size: 14px; line-height: 1.6; margin: 18px 0 24px; }
@@ -485,3 +495,104 @@ body, .site-footer { background: var(--navy); }
 /* Slightly smaller equipment and real estate artwork. */
 .platform-visual .item-equipment .platform-icon img[src*='-supplied.svg'],
 .platform-visual .item-estate .platform-icon img[src*='-supplied.svg'] { width: 24px; height: 24px; }
+/* Platform labels aligned left, with their icons on the right. */
+.platform-visual .platform-item,
+.platform-visual .platform-item.orbit-left { display: grid; grid-template-columns: minmax(0,1fr) 48px; width: 230px; gap: 12px; align-items: center; text-align: left; }
+.platform-visual .platform-item .platform-icon,
+.platform-visual .platform-item.orbit-left .platform-icon { grid-column: 2; grid-row: 1; }
+.platform-visual .platform-item > div,
+.platform-visual .platform-item.orbit-left > div,
+.platform-visual .item-land.orbit-upper > div { position: static; width: auto; transform: none; grid-column: 1; grid-row: 1; justify-self: stretch; text-align: left; }
+.platform-visual .platform-item p,
+.platform-visual .item-estate p { width: auto; max-width: none; }
+.platform-visual .estate-copy-line { white-space: normal; }
+@media(max-width:1100px) {
+ .platform-visual .platform-item,.platform-visual .platform-item.orbit-left { width: 100%; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .platform-visual .platform-item,.platform-visual .platform-item.orbit-left { width: 100%; }
+}
+/* Equal component cards across the entire carousel. */
+#capabilities .vast-progress-card { flex: 0 0 44vw; height: clamp(410px,31vw,530px); }
+#capabilities .vast-progress-caption { box-sizing: border-box; height: var(--component-caption-height,auto); }
+@media(max-width:1100px) { #capabilities .vast-progress-card { flex-basis: 78vw; height: 490px; } }
+@media(max-width:600px) { #capabilities .vast-progress-card { flex-basis: calc(100% - var(--page) * 2); height: 500px; } }
+/* Fixed label arrangement from the supplied platform reference. */
+.platform-visual .item-land,
+.platform-visual .item-estate { grid-template-columns: 48px minmax(0,1fr); }
+.platform-visual .item-land .platform-icon,
+.platform-visual .item-estate .platform-icon { grid-column: 1; }
+.platform-visual .item-land > div,
+.platform-visual .item-estate > div { grid-column: 2; text-align: left; }
+.platform-visual .item-equipment > div { text-align: right; }
+@media(min-width:1101px) and (prefers-reduced-motion:no-preference) {
+ .platform-visual .platform-item { width: 205px; }
+ .platform-visual .item-land,.platform-visual .item-estate { transform: translate(-24px,-50%); }
+ .platform-visual .item-equipment,.platform-visual .item-equipment.orbit-left { transform: translate(calc(-100% + 24px),-50%); }
+}
+@media(max-width:1100px) { .platform-visual .item-equipment > div { text-align: left; } }
+@media(prefers-reduced-motion:reduce) { .platform-visual .item-equipment > div { text-align: left; } }
+/* Explicit cells prevent older orbit rules from covering the icons. */
+#about .platform-visual .platform-item { display: grid; align-items: center; }
+#about .platform-visual .item-land,
+#about .platform-visual .item-estate { grid-template-columns: 48px minmax(0,1fr); }
+#about .platform-visual .item-land .platform-icon,
+#about .platform-visual .item-estate .platform-icon { grid-column: 1; grid-row: 1; }
+#about .platform-visual .item-land > div,
+#about .platform-visual .item-estate > div { grid-column: 2; grid-row: 1; position: static; transform: none; width: auto; text-align: left; }
+#about .platform-visual .item-equipment { grid-template-columns: minmax(0,1fr) 48px; }
+#about .platform-visual .item-equipment .platform-icon { grid-column: 2; grid-row: 1; }
+#about .platform-visual .item-equipment > div { grid-column: 1; grid-row: 1; }
+#about .platform-visual .platform-icon { display: grid; place-items: center; width: 48px; height: 48px; visibility: visible; opacity: 1; position: relative; z-index: 2; background: #2c0193; }
+#about .platform-visual .platform-icon img { display: block; visibility: visible; opacity: 1; }
+
+/* Right-align Equipment copy alongside its existing icon. */
+#about .platform-visual .item-equipment > div { text-align: right; }
+/* Refined orbit: quieter lines, consistent labels and upright rotating nodes. */
+#about .platform-visual .platform-item h3 { font-size: 24px; line-height: 1.15; margin: 0 0 8px; letter-spacing: -.02em; }
+#about .platform-visual .platform-item p { font-size: 15px; line-height: 1.5; color: #607084; }
+#about .platform-visual .platform-item > div { padding: 6px 0; background: rgba(255,255,255,.94); border-radius: 8px; }
+#about .platform-visual .platform-icon { box-shadow: 0 5px 16px rgba(44,1,147,.12); }
+#about .orbit-connections line { stroke: #d2dce9; stroke-width: .8; }
+#about .platform-lines { border-color: #d5dfeb; }
+#about .platform-lines::before { border-color: #e0d9f1; }
+#about .platform-lines::after { border-color: #e4ebf3; }
+@media(min-width:1101px) and (prefers-reduced-motion:no-preference) {
+ #about .platform-visual .platform-item { width: 205px; grid-template-columns: 48px minmax(0,1fr); gap: 16px; transform: translate(-24px,-50%); }
+ #about .platform-visual .platform-item .platform-icon { grid-column: 1; grid-row: 1; }
+ #about .platform-visual .platform-item > div { grid-column: 2; grid-row: 1; text-align: left; }
+ #about .platform-visual .platform-item.orbit-left { grid-template-columns: minmax(0,1fr) 48px; transform: translate(calc(-100% + 24px),-50%); }
+ #about .platform-visual .platform-item.orbit-left .platform-icon { grid-column: 2; }
+ #about .platform-visual .platform-item.orbit-left > div { grid-column: 1; text-align: right; }
+}
+
+/* Keep the Real estate description on two lines. */
+#about .platform-visual .item-estate > div { min-width: 190px; }
+#about .platform-visual .item-estate .estate-copy-line { white-space: nowrap; }
+/* Gentle color and rounded surfaces for the platform orbit. */
+#about .platform-visual { border-radius: 32px; background: linear-gradient(135deg,#f8f5ff 0%,#f5fafc 55%,#edfaf7 100%); border: 1px solid #ece8f5; box-shadow: 0 12px 36px rgba(0,23,48,.035); }
+#about .platform-visual .platform-item > div { padding: 10px 12px; border-radius: 14px; background: rgba(255,255,255,.88); box-shadow: 0 4px 16px rgba(0,23,48,.035); }
+#about .platform-visual .item-land > div { background: #f0eafa; }
+#about .platform-visual .item-estate > div { background: #e8f3fa; }
+#about .platform-visual .item-equipment > div { background: #e7f6f0; }
+#about .platform-visual .platform-core { box-shadow: 0 8px 28px rgba(44,1,147,.16); }
+@media(max-width:1100px) { #about .platform-visual { padding: 24px; border-radius: 24px; } }
+@media(prefers-reduced-motion:reduce) { #about .platform-visual { padding: 24px; } }
+
+/* Remove the outer platform background box. */
+#about .platform-visual { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+
+/* Two-line Land and Equipment descriptions. */
+#about .platform-visual .item-land > div,
+#about .platform-visual .item-equipment > div { min-width: 190px; }
+#about .platform-visual .platform-copy-line { white-space: nowrap; }
+
+/* Reserve the full caption width so panels never extend beneath icons. */
+@media(min-width:1101px) and (prefers-reduced-motion:no-preference) {
+ #about .platform-visual .platform-item { width: 270px; grid-template-columns: 48px 206px; gap: 16px; }
+ #about .platform-visual .platform-item.orbit-left { grid-template-columns: 206px 48px; }
+ #about .platform-visual .platform-item > div { box-sizing: border-box; width: 206px; min-width: 0; }
+}
+
+/* No focus frame during mouse dragging; keyboard focus stays visible. */
+#capabilities .vast-progress-grid.pointer-focused:focus { outline: none; box-shadow: none; }
