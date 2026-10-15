@@ -83,11 +83,11 @@ body, .site-footer { background: var(--navy); }
 .supplier-ribbon { grid-template-columns: repeat(5,minmax(0,1fr)); overflow: visible; border-bottom: 1px solid #edf0f3; }
 .supplier-ribbon::before, .supplier-ribbon::after { content: none; }
 .supplier-tile { background: #fff; border: 0; }
-.supplier-tile img { max-width: 100%; filter: brightness(0); opacity: .4; transition: none; }
+.supplier-tile img { max-width: 100%; filter: grayscale(1) brightness(.78) !important; opacity: 1; transition: filter .3s ease; }
 .supplier-tile:hover, .supplier-tile:focus-visible,
 .supplier-tile[aria-current="true"] { background: #fff; }
 .supplier-tile:hover img, .supplier-tile:focus-visible img,
-.supplier-tile[aria-current="true"] img { filter: brightness(0); opacity: 1; }
+.supplier-tile[aria-current="true"] img { filter: grayscale(1) brightness(0) !important; opacity: 1; }
 .supplier-tile:focus-visible { outline: 2px solid var(--cta-primary); outline-offset: -4px; }
 @media(max-width:600px) {
   .supplier-ribbon { grid-template-columns: repeat(3,minmax(0,1fr)); }
@@ -204,7 +204,10 @@ body, .site-footer { background: var(--navy); }
   font-weight: 500;
   line-height: 1.25;
 }
-.vast-progress-card .showcase-supplier-logo { position: static; display: block; width: auto; height: 40px; max-width: 100%; object-fit: contain; object-position: left center; filter: brightness(0) invert(1); }
+.vast-progress-card .vast-progress-supplier { padding: 5px 8px; border-radius: 4px; background: transparent; }
+.vast-progress-card .showcase-supplier-logo { position: static; display: block; width: auto; height: 40px; max-width: 100%; object-fit: contain; object-position: left center; filter: brightness(0) invert(1) !important; opacity: 1; transition: filter .3s ease; }
+.vast-progress-card:hover .showcase-supplier-logo,
+.vast-progress-card:focus-within .showcase-supplier-logo { filter: brightness(0) invert(1) !important; opacity: 1; }
 .vast-progress-controls button { width: auto; min-width: 72px; padding: 0 14px; font-size: var(--type-small); font-weight: 500; line-height: 1.25; }
 .map-caption, .orbit-toggle,
 .footer-legal p, .footer-legal button {

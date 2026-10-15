@@ -28,7 +28,7 @@ if (heroRoute) {
       ' Q' + width * .875 + ' ' + height * .18 + ' ' + width * .875 + ' ' + height * .22 +
       ' V' + height * .52 +
       ' Q' + width * .875 + ' ' + height * .556 + ' ' + width * .85 + ' ' + height * .556 +
-      ' H' + width * .665;
+      ' H' + width * .72;
     const continuation = 'M' + width * .43 + ' ' + height * .556 +
       ' H' + width * .38;
     heroRoute.setAttribute('viewBox', '0 0 ' + bounds.width + ' ' + bounds.height);
@@ -192,8 +192,14 @@ const animateSectionText = (container) => {
     const delay = Number.parseFloat(item.style.getPropertyValue('--section-text-delay')) || 0;
     const isTitle = item.matches('h1,h2,h3,h4,h5,h6');
     const isDescriptionOrAction = item.matches('p,a,button');
+    const isLogo = item.matches('.showcase-supplier-logo, .supplier-tile img');
     item.animate(
-      isTitle
+      isLogo
+        ? [
+            { opacity: 0, translate: '0 24px', scale: '.97' },
+            { opacity: 1, translate: '0 0', scale: '1' }
+          ]
+        : isTitle
         ? [
             { opacity: 0, clipPath: 'inset(0 0 100% 0)', translate: '0 72px', scale: '.9', filter: 'blur(10px)' },
             { opacity: 1, clipPath: 'inset(0 0 0 0)', translate: '0 0', scale: '1', filter: 'blur(0)' }
