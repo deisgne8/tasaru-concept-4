@@ -6,11 +6,12 @@
   <meta name="description" content="TASARU Supplier Hub brings global automotive expertise closer to Saudi production.">
   <meta name="theme-color" content="#001730">
   <title>TASARU Supplier Hub | Global expertise. Local production.</title>
-  <link rel="preload" href="assets/hero-localized-saudi-production-realistic-2x.png" as="image" fetchpriority="high">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="feedback.css">
-  <link rel="stylesheet" href="typography.css?v=20261012-platform-spacing">
+  <link rel="preload" href="assets/futuristic-blue-automotive-assembly-hall.png" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=20261015-search-strip-toggle">
+  <link rel="stylesheet" href="feedback.css?v=20261015-component-caption-width">
+  <link rel="stylesheet" href="typography.css?v=20261015-component-caption-size">
   <link rel="stylesheet" href="location-home.css?v=20261012-body-16">
+  <link rel="stylesheet" href="platform-reference.css?v=20261015-platform-card-motion-5">
 </head>
 <body>
   <svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><filter id="supplier-hub-white-logo" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -.2126 -.7152 -.0722 0 1"></feColorMatrix><feComposite in2="SourceAlpha" operator="in"></feComposite></filter></defs></svg>
@@ -31,8 +32,9 @@
       <a href="media.html">Media &amp; Insights</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <button class="search-button" type="button" aria-label="Search website" data-search-open>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+    <button class="search-button" type="button" aria-label="Search website" aria-expanded="false" data-search-open>
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+      <svg class="search-close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"></path></svg>
     </button>
   </header>
 
@@ -40,10 +42,10 @@
     <section class="hero" id="home" aria-labelledby="hero-title">
       <div class="hero-media" aria-hidden="true"></div>
       <div class="hero-shade" aria-hidden="true"></div>
+      <svg class="hero-route-line" aria-hidden="true" focusable="false"><path pathLength="1"></path><path pathLength="1"></path></svg>
       <div class="hero-content reveal">
-        <p class="eyebrow">Global expertise. Local production.</p>
-        <h1 id="hero-title">Where global automotive capability takes root <span class="text-teal">in Saudi Arabia.</span></h1>
-        <p class="hero-copy">TASARU Supplier Hub gives global automotive suppliers a dedicated platform to establish critical manufacturing capabilities within the Kingdom.</p>
+        <h1 id="hero-title">Where global automotive capability takes root <span class="text-teal">in Saudi Arabia</span></h1>
+        <p class="hero-copy">TASARU Supplier Hub gives global automotive suppliers a dedicated platform to establish critical manufacturing capabilities within the Kingdom</p>
         <div class="actions">
           <a class="button button-light" href="about.html">Discover the platform</a>
           <a class="button button-outline-light" href="suppliers.html">Meet the suppliers</a>
@@ -66,57 +68,29 @@
     </section>
 
     <section class="platform section" id="about" aria-labelledby="platform-title">
-
       <div class="platform-intro reveal">
-
-        <p class="eyebrow">The platform</p>
-
-        <h2 id="platform-title">A place for expertise to become <span class="text-purple">production.</span></h2>
-
-        <p>TSH brings together what the five Tier-1 suppliers need to start local production: land, manufacturing facilities and production equipment.</p>
-
+        <h2 id="platform-title">A place for expertise to become <span class="text-purple">production</span></h2>
+        <p>TSH brings together what the five Tier-1 suppliers need to start local production: land, manufacturing facilities and production equipment</p>
         <a class="text-link platform-cta" href="#capabilities">How it works</a>
-
       </div>
 
-      <div class="platform-visual reveal" aria-label="Land, real estate and equipment form the TASARU Supplier Hub platform">
-
-        <div class="platform-lines" aria-hidden="true"></div>
-
-        <article class="platform-item item-land">
-
-          <span class="platform-icon" aria-hidden="true"><img src="assets/platform-icons/land-supplied.svg" width="48" height="48" alt="" draggable="false">
-
-          </span>
-
-          <div><h3>Land</h3><p><span class="platform-copy-line">Dedicated land for</span><br><span class="platform-copy-line">supplier operations.</span></p></div>
-
+      <div class="foundation-grid reveal" role="group" aria-label="The platform foundations">
+        <article class="platform-foundation">
+          <h3>Land</h3>
+          <p>A dedicated physical base for supplier operations</p>
+          <span class="foundation-link">Explore capability</span>
         </article>
-
-        <article class="platform-item item-estate">
-
-          <span class="platform-icon" aria-hidden="true"><img src="assets/platform-icons/realestate-supplied.svg" width="48" height="48" alt="" draggable="false">
-
-          </span>
-
-          <div><h3>Real estate</h3><p><span class="estate-copy-line">Manufacturing facilities</span><br>for suppliers.</p></div>
-
+        <article class="platform-foundation">
+          <h3>Real estate</h3>
+          <p>Manufacturing facilities supporting the supplier platform</p>
+          <span class="foundation-link">Explore capability</span>
         </article>
-
-        <article class="platform-item item-equipment">
-
-          <span class="platform-icon" aria-hidden="true"><img src="assets/platform-icons/equipment-supplied.svg" width="48" height="48" alt="" draggable="false">
-
-          </span>
-
-          <div><h3>Equipment</h3><p><span class="platform-copy-line">Equipment for</span><br><span class="platform-copy-line">localized production.</span></p></div>
-
+        <article class="platform-foundation">
+          <h3>Equipment</h3>
+          <p>Production equipment supporting localized manufacturing</p>
+          <span class="foundation-link">Explore capability</span>
         </article>
-
-        <div class="platform-core"><span>TASARU</span><small>Supplier Hub</small></div>
-
       </div>
-
     </section>
 
 
@@ -125,9 +99,8 @@
       <div class="vast-progress-inner">
         <div class="supplier-progress-brand-line" hidden aria-hidden="true"></div>
         <div class="vast-progress-intro">
-          <p class="eyebrow">WHAT IS BEING LOCALIZED</p>
-          <h2 id="capabilities-title">Five component categories.<br>One connected platform.</h2>
-          <p class="vast-progress-description">The Hub is localizing five critical automotive component categories.</p>
+          <h2 id="capabilities-title">Five component categories<br>One connected platform</h2>
+          <p class="vast-progress-description">The Hub is localizing five critical automotive component categories</p>
         </div>
 
         <div class="vast-progress-carousel" data-vast-carousel>
@@ -139,7 +112,7 @@
                   <p class="vast-progress-kicker"><span></span> Seating</p>
                   <p class="vast-progress-supplier"><img class="showcase-supplier-logo" src="assets/feedback/lear-logo-transparent.png" alt="Lear" width="140" height="48" loading="lazy"></p>
                 </div>
-                <p>Seating combines comfort, safety and function at the center of the cabin. Localizing its manufacture brings a core component category closer to Saudi vehicle production.</p>
+                <p>Seating combines comfort, safety and function at the center of the cabin Localizing its manufacture brings a core component category closer to Saudi vehicle production</p>
               </div>
             </article>
 
@@ -150,7 +123,7 @@
                   <p class="vast-progress-kicker"><span></span> Body-in-white</p>
                   <p class="vast-progress-supplier"><img class="showcase-supplier-logo" src="assets/feedback/young-shin-logo-transparent.png" alt="Shin Young" width="140" height="48" loading="lazy"></p>
                 </div>
-                <p>The body-in-white forms the structural foundation of a vehicle. Establishing this manufacturing capability locally supports a critical stage of the automotive value chain.</p>
+                <p>The body-in-white forms the structural foundation of a vehicle Establishing this manufacturing capability locally supports a critical stage of the automotive value chain</p>
               </div>
             </article>
 
@@ -161,7 +134,7 @@
                   <p class="vast-progress-kicker"><span></span> Chassis</p>
                   <p class="vast-progress-supplier"><img class="showcase-supplier-logo" src="assets/feedback/benteler-logo-transparent.png" alt="BENTELER" width="140" height="48" loading="lazy"></p>
                 </div>
-                <p>Chassis systems carry the vehicle and shape how it handles and performs. Local capability strengthens the link between specialist component manufacturing and the OEM production line.</p>
+                <p>Chassis systems carry the vehicle and shape how it handles and performs Local capability strengthens the link between specialist component manufacturing and the OEM production line</p>
               </div>
             </article>
 
@@ -172,7 +145,7 @@
                   <p class="vast-progress-kicker"><span></span> Interior plastics</p>
                   <p class="vast-progress-supplier"><img class="showcase-supplier-logo" src="assets/feedback/fangxin-logo-transparent.png" alt="Fangxin" width="140" height="48" loading="lazy"></p>
                 </div>
-                <p>From cabin surfaces to functional interior parts, plastic components shape the in-vehicle experience. Local manufacturing brings this capability into the Saudi supply chain.</p>
+                <p>From cabin surfaces to functional interior parts, plastic components shape the in-vehicle experience Local manufacturing brings this capability into the Saudi supply chain</p>
               </div>
             </article>
 
@@ -183,7 +156,7 @@
                   <p class="vast-progress-kicker"><span></span> Exterior plastics</p>
                   <p class="vast-progress-supplier"><img class="showcase-supplier-logo" src="assets/feedback/jvis-logo-transparent.png" alt="JVIS" width="140" height="48" loading="lazy"></p>
                 </div>
-                <p>Exterior plastic components combine form and function across the vehicle. Localizing their manufacture expands the range of components available within the Kingdom's automotive ecosystem.</p>
+                <p>Exterior plastic components combine form and function across the vehicle Localizing their manufacture expands the range of components available within the Kingdom's automotive ecosystem</p>
               </div>
             </article>
           </div>
@@ -197,12 +170,12 @@
     </section>
 
     <section class="ecosystem section" id="suppliers" aria-labelledby="ecosystem-title">
+      <div class="ecosystem-scroll-stage">
       <div class="ecosystem-heading reveal">
-        <p class="eyebrow">The supplier network</p>
-        <h2 id="ecosystem-title">Connecting expertise<br><span class="text-purple">to production.</span></h2>
+        <h2 id="ecosystem-title">Connecting expertise<br><span class="text-purple">to production</span></h2>
         <div class="ecosystem-heading-copy">
+          <p>By localizing critical automotive manufacturing capabilities and enabling technical knowledge transfer, TASARU Supplier Hub supports Saudi Arabia’s industrial development and Vision 2030 ambitions</p>
           <a class="text-link platform-cta" href="#capabilities">Explore the suppliers</a>
-          <p>By localizing critical automotive manufacturing capabilities and enabling technical knowledge transfer, TASARU Supplier Hub supports Saudi Arabia’s industrial development and Vision 2030 ambitions.</p>
         </div>
       </div>
       <div class="ecosystem-flow reveal">
@@ -210,28 +183,28 @@
         <article class="ecosystem-global">
           <span>Global expertise</span>
           <h3>Five global Tier-1 suppliers</h3>
-          <p>Specialist automotive manufacturing knowledge.</p>
+          <p>Specialist automotive manufacturing knowledge</p>
         </article>
         <div class="flow-line" aria-hidden="true"><i></i></div>
         <article class="ecosystem-core">
           <span>The Hub</span>
           <h3>TASARU Supplier Hub</h3>
-          <p>A dedicated platform for localizing critical manufacturing capabilities.</p>
+          <p>A dedicated platform for localizing critical manufacturing capabilities</p>
         </article>
         <div class="flow-line" aria-hidden="true"><i></i></div>
         <article class="ecosystem-saudi">
           <span>Saudi production</span>
           <h3>The OEM ecosystem</h3>
-          <p>Critical component manufacturing positioned closer to Saudi production.</p>
+          <p>Critical component manufacturing positioned closer to Saudi production</p>
         </article>
+      </div>
       </div>
     </section>
 
     <section class="location-context" id="location" aria-labelledby="location-title">
       <div class="location-copy reveal">
-        <p class="eyebrow">Location</p>
-        <h2 id="location-title">Within a growing <span class="text-purple">automotive ecosystem.</span></h2>
-        <p>Located in MASARAT Mobility Park™ in King Abdullah Economic City, TSH connects its supplier platform to the wider Saudi automotive environment.</p>
+        <h2 id="location-title">Within a growing <span class="text-purple">automotive ecosystem</span></h2>
+        <p>Located in MASARAT Mobility Park™ in King Abdullah Economic City, TSH connects its supplier platform to the wider Saudi automotive environment</p>
         <div class="location-selectors" role="group" aria-label="Select a place in the location hierarchy">
           <button type="button" data-map-index="0" aria-pressed="false">King Abdullah Economic City</button>
           <button type="button" data-map-index="1" aria-pressed="false">King Salman Automotive Cluster</button>
@@ -254,7 +227,7 @@
       <div class="contact-content reveal">
         <img src="assets/tasaru-logo-navy.svg" alt="" width="388" height="103">
         <h2 id="contact-title">Start a conversation</h2>
-        <p>For supplier, partnership, media or stakeholder inquiries, contact our team.</p>
+        <p>For supplier, partnership, media or stakeholder inquiries, contact our team</p>
         <button class="button button-light" type="button" data-contact-open aria-haspopup="dialog">Get in touch</button>
       </div>
     </section>
@@ -263,7 +236,7 @@
   <footer class="site-footer">
     <div class="footer-brand">
       <a href="#home"><img src="assets/tasaru-supplier-hub-approved.png" alt="TASARU Supplier Hub" width="726" height="219"></a>
-      <p>Expertise that drives.<br><span>Capability that delivers.</span></p>
+      <p>Expertise that drives<br><span>Capability that delivers</span></p>
     </div>
     <nav aria-label="Footer navigation">
       <a href="about.html">About TSH</a>
@@ -282,20 +255,18 @@
       </div>
     </div>
     <div class="footer-legal">
-      <p>© 2026 TASARU Supplier Hub. All rights reserved.</p>
+      <p>© 2026 TASARU Supplier Hub All rights reserved</p>
       <div><button type="button">Privacy Policy</button><button type="button">Terms of Use</button></div>
     </div>
   </footer>
 
-  <dialog class="search-dialog" data-search-dialog aria-labelledby="search-title">
+  <dialog class="search-dialog" data-search-dialog aria-label="Search TASARU Supplier Hub">
     <form method="dialog" class="search-shell">
-      <button class="search-close" value="cancel" aria-label="Close search">×</button>
-      <label id="search-title" for="site-search">Search TASARU Supplier Hub</label>
       <div class="search-input-wrap">
         <input id="site-search" type="search" placeholder="What are you looking for?" autocomplete="off" data-search-input>
         <button type="submit" value="search">Search</button>
       </div>
-      <p data-search-status>Search the landing page by section name.</p>
+      <p data-search-status></p>
     </form>
   </dialog>
 
@@ -303,7 +274,7 @@
     <form class="contact-form" data-contact-form>
       <button class="contact-close" type="button" data-contact-close aria-label="Close contact form">×</button>
       <h2 id="contact-form-title">Get in touch</h2>
-      <p id="contact-form-note">This form is not connected yet. Your details will not be sent or saved.</p>
+      <p id="contact-form-note">This form is not connected yet Your details will not be sent or saved</p>
       <label for="contact-category">Enquiry category (required)</label>
       <select id="contact-category" name="category" required><option value="">Select a category</option><option>Supplier</option><option>Partnership</option><option>Media</option><option>General enquiry</option></select>
       <label for="contact-message">Message (required)</label>
@@ -316,6 +287,6 @@
       <p data-contact-status role="status"></p>
     </form>
   </dialog>
-  <script src="script.js?v=20261009-drag-focus"></script>
-</body>
+  <script src="script.js?v=20261015-search-strip-motion"></script>
+<script src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script><script src="smooth-scroll.js?v=20261015-alpago-scroll"></script></body>
 </html>
